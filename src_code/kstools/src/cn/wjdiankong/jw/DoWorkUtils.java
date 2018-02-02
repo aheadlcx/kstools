@@ -350,7 +350,7 @@ public class DoWorkUtils {
 				return false;
 			}
 			String storePass = "cyy1888";
-			StringBuilder signCmd = new StringBuilder("jarsigner.exe");
+			StringBuilder signCmd = new StringBuilder("jarsigner");
 			signCmd.append(" -verbose -keystore ");
 			signCmd.append(keystore);
 			signCmd.append(" -storepass ");
